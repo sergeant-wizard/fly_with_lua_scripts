@@ -7,6 +7,8 @@ end
 
 do_every_draw('debug()')
 
+-- set("sim/joystick/joystick_pitch_nullzone", 0.2)
+
 function setup_common()
 	clear_all_button_assignments()
 	-- A
@@ -28,11 +30,11 @@ function setup_common()
 	set_button_assignment(xbox + 8, "sim/electrical/batteries_toggle")
 	-- R3
     -- UP
-	set_button_assignment(xbox + 16, "sim/flight_controls/pitch_trim_up")
+	set_button_assignment(xbox + 16, "sim/flight_controls/pitch_trim_down")
     -- RIGHT
 	set_button_assignment(xbox + 18, "sim/engines/prop_up")
     -- DOWN
-	set_button_assignment(xbox + 20, "sim/flight_controls/pitch_trim_down")
+	set_button_assignment(xbox + 20, "sim/flight_controls/pitch_trim_up")
     -- LEFT
 	set_button_assignment(xbox + 22, "sim/engines/prop_down")
 end
