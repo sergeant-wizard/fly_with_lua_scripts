@@ -72,6 +72,7 @@ end
 
 if PLANE_ICAO == "C172" then
 	draw_string( 100, 400, "C172", "red" )
+end
 if  PLANE_ICAO == "BE58" then
 	setup_common()
 	do_on_keystroke("on_key_pressed()")
