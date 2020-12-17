@@ -56,7 +56,7 @@ function right_engine_only()
 end
 
 function on_key_pressed()
-	if CKEY == "'" then
+	if CKEY == ";" then
 		debug_string = "left engine"
 		left_engine_only()
 	end
