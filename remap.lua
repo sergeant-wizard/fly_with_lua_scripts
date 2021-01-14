@@ -16,6 +16,7 @@ function setup_common()
 	-- B
 	set_button_assignment(xbox + 1, "sim/engines/throttle_down")
 	-- X
+	set_button_assignment(xbox + 2, "xpilot/ptt")
 	-- Y
 	set_button_assignment(xbox + 3, "sim/flight_controls/brakes_max")
 	-- LB
